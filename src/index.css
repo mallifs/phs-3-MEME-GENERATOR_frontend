@@ -1,13 +1,106 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  box-sizing: border-box;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  margin: 0;
+  background-color: whitesmoke;
+}
+header{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background: #6441A5;
+  background: -webkit-linear-gradient(to right,#2A0845,#6441A5);
+  background: -webkit-linear-gradient(to right,#2A0845,#6441A5);
+}
+header > img {
+  height: 80%;
+  margin-left: 20%;
+}
+header > p {
+  font-family: VT323,monospace;
+  color: whitesmoke;
+  font-size: 50px;
+  margin-left: 60px;
+}
+.meme > img {
+  width:90%;
+  margin-left :5%;
+  margin-right: 50%;
+  height: 500px;
+  /* margin: auto; */
+  /* padding: auto; */
+  position: relative;
+}
+.meme{
+  position: relative;
+  width: 90%;
+  margin: auto;
+}.meme > h2{
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left:50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact,sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: rgb(236, 230, 230);
+  letter-spacing: 1xp;
+  text-shadow:
+  2px 2xp 0 #000,
+  -2px -2px 0 #000,
+  2px -2px 0 #000,
+  -2px 2px 0 #000,
+  0 2px 0 #000,
+  2px 0 0 #000,
+  0 -2px 0 #000,
+  -2px 0 0 #000,
+  2px 2px 5px #000;
+}
+.meme > .bottom{
+  bottom: 0;
+}
+.meme > .top{
+  top:0;
+}
+.meme-form{
+  width: 90%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.meme-form > input{
+  width: 40%;
+  height: 40px;
+}
+.meme-form > button{
+  border: none;
+  font-family: VT323, monospace;
+  font-size: 25;
+  letter-spacing: 1.5px;
+  color: white;
+  background: #6441A5;
+}
+.meme-form > input::-webkit-input-placeholder{
+  font-family: VT323, monospace;
+  font-size: 25px;
+  text-align: cen;
+}
+.meme-form > input::-moz-placeholder{
+  font-family: VT323, monospace;
+  font-size: 25px;
+  text-align: cen;
+}
+.meme-form > input:-ms-input-placeholder{
+  font-family: VT323, monospace;
+  font-size: 25px;
+  text-align: cen;
+}
+.meme-form > input:-moz-placeholder{
+  font-family: VT323, monospace;
+  font-size: 25px;
+  text-align: cen;
 }

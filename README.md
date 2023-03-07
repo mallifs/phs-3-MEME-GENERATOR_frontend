@@ -21,7 +21,7 @@ Clone this repository and navigate to the project directory:
 
  navigate to the project directory
 
-    cd haha-hub
+    cd Meme-hub
                 
 Install dependencies:
 

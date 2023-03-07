@@ -17,7 +17,7 @@ To run the application locally, you need to have Node.js and npm installed on yo
 
 Clone this repository and navigate to the project directory:
 
-      git clone https://github.com/your-username/haha-hub.git 
+      git clone  https://github.com/mallifs/phs-3-MEME-GENERATOR_frontend
 
  navigate to the project directory
 
@@ -37,7 +37,7 @@ Note: If the Meme Generator API backend is not running on http://localhost:9292,
 
 ## Dependencies
 
-meme Hub depends on the following libraries and tools:
+Meme Hub depends on the following libraries and tools:
 
 - React - JavaScript library for building user interfaces
 - Tailwind - CSS framework for responsive design

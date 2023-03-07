@@ -52,3 +52,4 @@ const Allmemes = ({ memes, handleSearchChange  }) => {
  };
  
  export default Allmemes;
+ 

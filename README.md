@@ -11,7 +11,7 @@ Haha Hub is a web application built with React that allows you to create jokes u
 - update your jokes
 
  # Links
-  - [backend repository](https://github.com/abdishukri-105/meme-generator)
+  - [backend repository](https://github.com/mallifs/phase_3_Project_MEME_GENERATOR)
  
 
 # installation and Usage
